@@ -1,0 +1,21 @@
+{
+  "name": "deteccao-encontros",
+  "version": "1.0.0",
+  "description": "Detecção de encontros entre monitorados (genéricos, facções e medidas protetivas) a partir de dados de geolocalização",
+  "private": true,
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node dist/testes.js",
+    "validate": "node dist/validate.js",
+    "bench": "node dist/bench.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  }
+}
